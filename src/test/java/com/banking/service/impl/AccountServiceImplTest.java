@@ -39,7 +39,7 @@ public class AccountServiceImplTest {
 	@Test
 	public void testCreateAccount() {
 		// Arrange
-		int accountType = 1;
+		Integer accountType = 1;
 		String generatedAccountNumber = "12345678901234567890";
 		AccountType accountTypeEntity = new AccountType();
 		accountTypeEntity.setId(accountType);
